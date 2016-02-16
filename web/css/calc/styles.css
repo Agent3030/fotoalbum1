@@ -1,0 +1,308 @@
+/* font Roboto Condensed import */
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: local('Roboto Condensed Light'), local('RobotoCondensed-Light'), url('/fonts/robotocondensedlight.woff2') format('woff2'), url('/fonts/robotocondensedlight.woff') format('woff'), url('/fonts/robotocondensedlight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* default settings*/
+html {
+	font-size: 100%;
+}
+body {
+    background-color:  #ffffff;
+    font-family: 'Roboto Condensed', sans-serif, serif;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box; 
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+	text-align: center;
+	overflow-x: hidden !important;
+	margin: auto !important;
+}
+strong {
+	font-weight: 700;
+}
+
+.strong {
+	font-weight: 700;
+}
+
+@-webkit-viewport {
+	width: device-width;
+}
+
+@-moz-viewport {
+	width: device-width;
+}
+
+@-ms-viewport {
+	width: device-width;
+}
+
+@-o-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+ul,
+ol {
+	padding-left: 0 !important;
+}
+
+li {
+	list-style: none;
+}
+/* Typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0;
+	margin-top: 0;
+}
+
+h1 {
+	font-size: 2.2rem;
+	line-height: 2.5rem;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 1.8rem;
+	line-height: 2.2rem;
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 1.5rem;
+	line-height: 2.375rem;
+	font-weight: 600;
+}
+
+h4 {
+	font-size: 1.25rem;
+	line-height: 2rem;
+	font-weight: 600;
+}
+
+h5 {
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 700;
+}
+
+h6 {
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: 700;
+}
+/* section settings */
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/*header*/
+.navbar-brand img {
+    width: 60%;
+    heihgt: 60%;  
+    margin-top: 0;
+}
+.navbar-nav {
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+.calc-header{
+    margin-top: -50px;
+    background-color: #4C3F36;
+    -webkit-background-size: cover;
+	background-size: cover;
+    min-height: 100px;
+}
+h1 {
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.header-description {
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.8rem;
+    line-height: 1.0rem;
+     color: whitesmoke;
+    
+}
+/* main calculator*/
+.calc-main {
+   
+    margin-top: 40px;
+     
+}
+.calc-manual {
+   
+    min-height: 700px;
+    background-color: #F8F8F8 ;
+   
+}
+.calc-manual p {
+    text-align: justify;
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.calc-manual h5 {
+    padding-top: 60px;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    text-transform: uppercase;
+    color: #000033;
+   
+}
+
+.calc-manual ul {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.calc-manual li {
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.calc-manual li span{
+    color:  #0033CC; 
+    font-weight: 800;
+}
+.calc-manual .active{
+    color: #33CC66;
+}
+.calc-body {
+    min-height: 700px;
+    background-color: #F8F8F8    ;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.3);
+   
+}
+.calc-body-header {
+    margin-top: 0;
+    text-align: left;
+    color:  #000033;
+    margin-bottom: 50px;
+}
+.calc-body-header h2 {
+    padding-top: 15px;
+    padding-left: 5px
+  
+}
+.calc-body-main {
+   
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.kit-desc {
+   
+    min-height: 420px;
+    background-color: #E8E8E8;
+    border-bottom: 3px solid #C8C8C8;
+    
+}
+.kit-desc img {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background-color: #E8E8E8;
+}
+.kit-desc .kit-text {
+    margin-top: 25px;
+}
+.kit-desc h4{
+    text-transform: uppercase;
+  
+   
+}
+.kit-text li{
+    font-size: 0.9rem;
+    line-height: 1.0rem;
+    font-weight: 600
+}
+.kit-desc :hover {
+    cursor: pointer;
+    
+}
+
+.kit-desc-active {
+    background-color: #F0F0F0;
+    border: 1px solid  #C8C8C8;
+}
+.kit-desc-active h4{
+    text-transform: uppercase;
+    color:   #0033CC;
+   
+}
+.kit-desc-active .kit-text{
+    
+    color:   #0033CC;
+   
+}
+.calc-progress {
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px; 
+    
+}
+.kit-name {
+    margin-top: 40px;
+    
+}
+.kit-name h3 {
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 20px;
+     color:  #000033;
+}
+#kit-id {
+    padding-left: 15px;
+    color:  #0033CC;
+}
+.next {
+    margin-top: 10px;
+     
+}
+.next i{
+    color: #0033CC;
+    margin-right: -50px;
+}
+.calc-footer {
+    margin-top: 10px;
+    padding-top: 30px;
+    background-color: #4C3F36;
+    min-height: 100px;
+    color: whitesmoke;
+
+}
+.calc-footer h5 {
+   color: whitesmoke;
+}
